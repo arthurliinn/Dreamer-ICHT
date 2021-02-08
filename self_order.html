@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>旅遊頻道 CHANNEL-T</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/order.css">
+  <link rel="stylesheet" href="css/all.css" type="text/css" >
+  <link rel="stylesheet" href="css/slick.css" type="text/css" >
+  <link rel="stylesheet" href="css/slick-theme.css" type="text/css" >
+  <link rel="stylesheet" href="css/daterangepicker.css" type="text/css" >
+</head>
+<body>
+  <main>
+    <div id="top_banner">
+      <div id="LOGO">
+        <a href="mainPage.html">
+          <img class="LOGOs" id="logo2" src="images/icht-mainLOGO.png"/>
+        </a>  
+      </div>
+      <div id="phone_btn">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+      </div>
+      <nav>
+        <div id="nav_container">
+          <a id="fafa_btn" class="nav_tag" href="#">旅頻發發</a><a class="nav_tag" href="#">旅頻文章</a><a class="nav_tag" href="#"> T-Talk</a><a class="nav_tag" href="#">會員專區</a><a href="ichtAD_shop.html" class="nav_tag">購買廣告</a><a class="nav_tag phone_food" href="http://www.oolife.com.tw/">糧民專區</a><a class="nav_tag" href="#">聯絡我們</a>
+        </div>
+        <a href="#" id="logout_btn">登出</a>
+        <!-- <a id="weekly_btn" class="nav_tag" href="weekly.html">icht旅遊同業誌介紹</a><a id="newsletter_btn" class="nav_tag" href="newsletter.html">icht電子報介紹</a>  --> 
+      </nav>
+    </div>
+
+    <div id="main_container">
+      <div id="description">
+        <h1 id="description_title"><i class="fas fa-file-alt"></i>自訂行程</h1>
+        <p>打造您專屬的旅程，留下您的資料，我們將於收到需求後儘快與您聯繫服務，謝謝您!</p>
+      </div>
+      <div id="user_detail" class="order_container">
+        <h1 class="order_title">基本資料</h1>
+        <span>姓名</span><input class="order_input" type="text" id="user_name" name="user_name"/><br>
+        <span>電話</span><input class="order_input" type="text" id="user_telephone" name="user_telephone"/><br>
+        <span>E-MAIL</span><input class="order_input" type="email" id="user_email" name="user_email"/>
+      </div>
+      <div class="order_container">
+        <h1 class="order_title">自訂內容</h1>
+        <div id="people">
+          <span id="quantity_people">人數</span><span class="quantity_type">成人</span><input type="text" id="adult_quantity" class="quantity_input"/><span class="quantity_type">小孩</span><input type="text" id="child_quantity" class="quantity_input"/>
+        </div>
+        <span>旅遊地點</span>
+        <select class="search_selector">
+          <option value="position">位置</option>
+          <option value="taiwan">台灣</option>
+          <option value="china">中國</option>
+          <option value="asia">亞州</option>
+          <option value="america">美洲</option>
+          <option value="south_america">南美洲</option>
+          <option value="europe">歐洲</option>
+        </select>
+        <span>區域</span>
+        <select class="search_selector" id="taiwan">
+          <option value="none">不限區域</option>
+          <option value="taiwan">台灣</option>
+          <option value="china">中國</option>
+          <option value="asia">亞州</option>
+          <option value="america">美洲</option>
+          <option value="south_america">南美洲</option>
+          <option value="europe">歐洲</option>
+        </select>
+        <br><span>出發日期</span>
+        <div class="date_select_container">
+          <input type="text" name="dates" value="2020/03/31 - 2020/03/31" />
+        </div><br>
+        <span>旅遊預算</span>
+        <select class="search_selector">
+          <option value="none">NTD</option>
+          <option value="1000">1000$NTD</option>
+          <option value="5000">5000$NTD</option>
+          <option value="10000">10000$NTD</option>
+          <option value="20000">20000$NTD</option>
+          <option value="30000">3000$NTD</option>
+          <option value="40000">40000$NTD</option>
+          <option value="50000">50000$NTD</option>
+        </select>
+        <span>~</span>
+        <select class="search_selector">
+          <option value="none">NTD</option>
+          <option value="1000">1000$NTD</option>
+          <option value="5000">5000$NTD</option>
+          <option value="10000">10000$NTD</option>
+          <option value="20000">20000$NTD</option>
+          <option value="30000">3000$NTD</option>
+          <option value="40000">40000$NTD</option>
+          <option value="50000">50000$NTD</option>
+          <option value="50000up">50000$NTD up</option>
+        </select>
+        <br>
+        <span>旅遊行程</span><br><span id="small_title">(可複選)</span>
+        <div class="slelect_box_container order_type_select">
+          <div class="select_box"><input type="checkbox"  value=""><span>團體行程</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>郵輪</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>散客自由行</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>散客行程規劃報價</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>機票</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>訂車</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>接送車</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>遊學</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>招待/參訪</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>當地旅遊團</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>會議商場</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>門票/秀票/球票</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>訂房</span></div>
+          <div class="select_box"><input type="checkbox"  value=""><span>導遊翻譯</span></div>
+        </div>
+        <span id="extra_note">特別備註</span><textarea id="special_note" name="special_note"></textarea><br>
+        <input id="send_button" type="button" value="送出表單">
+      </div>
+    </div>
+
+    </div>
+  </main>
+
+
+  <footer>
+    <div id="copyright_LOGO_container">
+      <img class="LOGOs" id="logo_bottom" src="images/icht-LOGO2.png"/>
+      <div id="copyright_container">
+        <p>110 台北市信義區基隆路一段163號8樓之2</p>
+        <p>Tel:886-2-27493998 | Fax:886-2-27495587</p>
+        <p>峻盟國際股份有限公司  Copyright©2013 DREAMER Internet Corporation Limited</p>
+      </div>
+    </div>
+    <div id="bottom_icon">
+      <div class="bottom_btn"><a href="#"><img class="bottom_btn_img" src="images/bottom-flight.svg"></a><p>旅外安全</p></div>
+      <div class="bottom_btn"><a href="https://rate.bot.com.tw/xrt?Lang=zh-TW"><img class="bottom_btn_img" src="images/wallet.svg"></a><p>匯率</p></div>
+      <div class="bottom_btn"><a href="https://www.cwb.gov.tw/V7/forecast/world/world_aa.htm"><img class="bottom_btn_img" src="images/weather.svg"></a><p>天氣</p></div>
+      <div class="bottom_btn"><a href="#"><img class="bottom_btn_img" src="images/clock.svg"></a><p>時差</p></div>
+      <div class="bottom_btn"><a href="http://www.travel.org.tw/"><img class="bottom_btn_img" src="images/TQAA.svg"></a><p>品保協會</p></div>
+    </div>
+  </footer>
+</body>
+<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/animation.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/daterangepicker.js"></script>
+</html>

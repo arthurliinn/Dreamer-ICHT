@@ -1,0 +1,135 @@
+#main_container span {
+  vertical-align: middle;
+}
+
+#description {
+  margin-top: 30px;
+}
+
+#description p {
+  margin-top: 30px;
+  text-align: center;
+  color: #666666;
+}
+
+#description_title {
+  font-size: 50px;
+  text-align: center;
+  color: #f15A24;
+}
+
+.order_container {
+  margin-top: 30px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order_container span {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.order_title {
+  color: #FBB03B;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FBB03B;
+  margin-bottom: 20px;
+}
+
+.order_input {
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  width: 70%;
+  border: 2px solid #FBB03B;
+  padding: 15px;
+  padding-left: 5px;
+}
+
+#user_email {
+  margin-left: 25px;
+}
+
+#people {
+  margin-bottom: 20px;
+}
+
+#quantity_people {
+  margin-right: 50px;
+}
+
+.quantity_input {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 30%;
+  border: 2px solid #FBB03B;
+  padding: 15px;
+  padding-left: 5px;
+}
+
+.quantity_type {
+  margin-right: 20px;
+  color: #5B5B5B;
+}
+
+.search_selector {
+  margin-bottom: 20px;
+  border-width: 2px;
+  margin-left: 20px;
+}
+
+.date_select_container {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.date_select_container input {
+  height: 40px;
+  padding-left: 10px;
+  border: 2px solid #FBB03B;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#small_title {
+  font-size: 20px;
+  color: #5B5B5B;
+}
+
+.order_type_select {
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid #F39800;
+  top: -80px;
+  left: 50px;
+}
+
+#special_note {
+  width: 85%;
+  height: 180px;
+  margin-left: 20px;
+  resize: none;
+  border: 2px solid #F39800;
+  vertical-align: top;
+}
+
+#extra_note {
+  vertical-align: top;
+}
+
+#send_button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 12px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  background-color: #ED1C24;
+  color: #ffffff;
+}
+/*# sourceMappingURL=order.css.map */

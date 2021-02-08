@@ -1,0 +1,162 @@
+#travel_banner {
+  width: 98%;
+  margin: 0 auto;
+}
+
+#travel_banner_img {
+  background-image: url(../images/logo_bg.png);
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 200px;
+  display: inline-block;
+}
+
+#travel_banner_img img {
+  width: 60%;
+  top: 20%;
+  left: 25px;
+}
+
+#travel_nav {
+  display: inline-block;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 50%;
+  font-size: 20px;
+}
+
+#travel_nav a {
+  padding: 0 10px;
+  border-left: solid 2px #808080;
+  color: #808080;
+  text-decoration: none;
+}
+
+#travel_nav a:nth-child(1) {
+  border: none;
+}
+
+#travel_page_content {
+  width: 98%;
+  margin: 0 auto;
+}
+
+#travel_title {
+  font-size: 50px;
+}
+
+#travel_img_showcase {
+  display: inline-block;
+  width: 50%;
+}
+
+.travel_images {
+  width: 30%;
+}
+
+.travel_images_big {
+  width: 100%;
+}
+
+#travel_price_day {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#price_content {
+  width: 50%;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+#price_content p {
+  margin-top: 40px;
+}
+
+.day_number {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#travel_day_number {
+  margin-left: 30px;
+  margin-right: 10px;
+  font-size: 80px;
+  color: #ff0000;
+  font-weight: 600;
+}
+
+.start_date {
+  margin-left: 30px;
+}
+
+#price {
+  font-size: 60px;
+  color: #ff0000;
+  margin-left: 80px;
+}
+
+#contact_btn {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 0 auto;
+  top: 120px;
+  left: 120px;
+}
+
+.travel_title {
+  margin: 0 auto;
+  width: 250px;
+  background-color: #fff;
+  font-size: 35px;
+  background-color: #F7931E;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.title_icon {
+  width: 40px;
+  vertical-align: middle;
+}
+
+#travel_detail_content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.detail_content {
+  margin: 25px auto;
+  width: 80%;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.price_type_box {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.price_type_box {
+  text-align: center;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.blue {
+  color: #0071BC;
+}
+/*# sourceMappingURL=travelPage.css.map */
