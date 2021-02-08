@@ -43,15 +43,15 @@ $(function(){
 
 //datesearch
 
-$(function(){
-  $('input[name="dates"]').daterangepicker({
-    startDate: moment(),
-    endDate: moment()+10,
+// $(function(){
+//   $('input[name="dates"]').daterangepicker({
+//     startDate: moment(),
+//     endDate: moment()+10,
 
-    locale: {
-      format: 'YYYY-MM-DD'
-    },
+//     locale: {
+//       format: 'YYYY-MM-DD'
+//     },
 
-  });
+//   });
 
 });
